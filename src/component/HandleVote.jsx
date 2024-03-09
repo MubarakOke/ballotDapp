@@ -2,8 +2,6 @@ import { Box, Button, Card, Flex, Text, TextField } from "@radix-ui/themes";
 import useProposals from "../hooks/useProposals";
 import Proposal from "../component/Proposal"
 
-import useHandleVote from "../hooks/useHandleVote";
-
 const DelegateVote = () => {
     const { loading, data: proposals } = useProposals();
 
